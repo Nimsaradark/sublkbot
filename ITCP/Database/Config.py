@@ -10,7 +10,7 @@
 import os
 
 """Get Bot Token from @BotFather"""
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('5295489145:AAGseaJLasxpp4bUqtkYqwovJX3pnV4hrmA')
 
 """Other-Details"""
 LOGS_CHAT = -1001952943899
