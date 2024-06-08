@@ -1,0 +1,3 @@
+from .Handle_message_documents import handle_documents_func
+from .Handle_message_buttons import handle_buttons_func
+from .Handle_message_text import handle_text_func
