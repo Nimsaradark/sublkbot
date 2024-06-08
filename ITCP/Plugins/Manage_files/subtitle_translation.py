@@ -8,7 +8,7 @@ import os
 import io
 import re
 
-from Database import progress_caption , eta_text , progress_fill , progress_pending , thumbnail , translatetion_langs ,tr_button_per_line
+from Database import progress_caption , eta_text , progress_fill , progress_pending , translatetion_langs ,tr_button_per_line
 
 user_tasks = {}
 
