@@ -1,0 +1,13 @@
+python-telegram-bot
+python-telegram-bot[webhooks]
+selenium==4.21.0
+heroku3==5.2.1
+deep-translator==1.11.4
+pymongo==4.6.2
+telegraph==2.2.0
+requests==2.31.0
+rich==13.7.1
+parse-torrent-title==2.8.1
+cinemagoer==2023.5.1
+tmdbsimple
+rarfile==4.2

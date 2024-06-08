@@ -1,0 +1,36 @@
+{
+  "name": "itzcp",
+  "logo": "",
+  "keywords": ["python-telegram-bot,webhook,heroku"],
+  "repository": "https://github.com/pamodmadubashana/itzcp",
+  "description": "Movie Filter Bot For Telegram",
+  "scripts": {},
+  "env": {
+    "TOKEN": {
+      "description": "Get TOKEN from https://t.me/BotFather ",
+      "required": true
+    },
+    "API_KEY": {
+      "description": "Enter Your Heroku Api Key , Set this if you need to bot run with webhook",
+    },
+    "APP_NAME": {
+      "description": "Enter Your Heroku App Name , Set this if you need to bot run with webhook",
+    },
+    "DATABASE_URL": {
+      "description": "eg : 'mongodb+srv://username:password@cluster0.0aphy2c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-22"
+}
