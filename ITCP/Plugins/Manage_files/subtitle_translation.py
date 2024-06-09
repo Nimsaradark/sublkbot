@@ -8,7 +8,7 @@ import os
 import io
 import re
 
-from Database import progress_caption , eta_text , progress_fill , progress_pending , translatetion_langs ,tr_button_per_line
+from Database import progress_caption , eta_text , progress_fill , progress_pending , translatetion_langs, thumbnail, tr_button_per_line
 
 user_tasks = {}
 
@@ -184,7 +184,7 @@ async def start_translate_task(update: Update, context: CallbackContext):
         if os.path.exists(outfile):
             caption = "<b><i>{}_{}.srt</i></b>\n\nTranslated by {}\n\nElapsed : {}"
 
-            try:msg = await context.bot.send_document(document=outfile,chat_id=-1002051680690,thumbnail=thumbnail)
+            try:msg = await context.bot.send_document(document=outfile,chat_id=--1001885188788,thumbnail=thumbnail)
             except Exception as e:
                 await query.edit_message_caption(f"Error while Uploading...\n{str(e)}")
                 try:
