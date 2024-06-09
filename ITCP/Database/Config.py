@@ -13,7 +13,7 @@ import os
 TOKEN = os.environ.get('TOKEN')
 
 """Other-Details"""
-LOGS_CHAT = -1001952943899
+LOGS_CHAT = -1001885188788
 LOGO = 'https://graph.org/file/b0a679a33645a2470521d.jpg'
 start_img = 'https://graph.org/file/b0a679a33645a2470521d.jpg'
 
