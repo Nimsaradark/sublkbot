@@ -21,7 +21,7 @@ from Plugins.Service import (
 HEROKU_API_KEY = os.environ.get('API_KEY',False)
 HEROKU_APP_NAME = os.environ.get('APP_NAME',False)
 WEB_HOOK_URL = os.environ.get('WEBHOOK',False)
-PORT = int(os.environ.get('PORT', '8443'))
+PORT = int(os.environ.get('PORT', '8080'))
 
 filterwarnings(action='ignore', category=DeprecationWarning)
 
